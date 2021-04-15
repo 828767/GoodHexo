@@ -20,7 +20,8 @@ language: zh-CN  #theme: maupassant，landscape，Annie
 # theme: yelee  #切换到yelee主题前，建议先在 `git bash` 中运行 `hexo clean` 清理一遍缓存
 # theme: maupassant
 # theme: next 
-theme: matery 
+# theme: matery 
+theme: fluid 
 # theme: butterfly 
 # theme: volantis
 
