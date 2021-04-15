@@ -27,7 +27,7 @@ theme: fluid
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yourdomain.com  #如果绑定了域名这里配置自己的域名，否则配置github等二级域名
+url: http://yiwangmeng.com  #如果绑定了域名这里配置自己的域名，否则配置github等二级域名
 root: /
 #permalink: :year/:month/:day/:title/  #链接发布格式
 permalink: :title.html
@@ -147,4 +147,7 @@ updated_option: false
 ##  repo: ssh://git@x.x.x.x:<your-port>/~/hexo.git
 
 deploy:
-  type:
+  type: git
+  repo: git@github.com:828767/828767.github.io.git
+  branch: master
+  message: Hexo Html
