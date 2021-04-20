@@ -48,7 +48,7 @@ skip_render: [README.md]
 
 # Writing
 # new_post_name: :year-:month-:title.md # MarkDown源文件组织格式
-new_post_name: :title.md # MarkDown源文件组织格式
+new_post_name: :year-:month-:title.md # MarkDown源文件组织格式
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
